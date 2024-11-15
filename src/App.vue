@@ -47,7 +47,7 @@ export default {
     },
     handleTheme(a) {
       this.imgUrl = a;
-      console.log(a);
+
       this.themeChosen = true;
     },
   },

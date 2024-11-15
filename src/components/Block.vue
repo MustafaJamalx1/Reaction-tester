@@ -11,7 +11,7 @@
     @click="stopTimer"
     :style="{ top: top + 'px', left: left + 'px' }"
   >
-    Click me
+    fuck me
   </div>
 </template>
 
@@ -28,8 +28,6 @@ export default {
     };
   },
   mounted() {
-    console.log(this.imgUrl.imgUrl);
-
     setTimeout(() => {
       this.showBlock = true;
       this.setTimer();
@@ -62,7 +60,8 @@ export default {
   height: 200px;
   border-radius: 9999px;
   background-color: #0faf86;
-  color: white;
+  color: black;
+  font-size: larger;
   text-align: center;
 
   background-size: cover;
